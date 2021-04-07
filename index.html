@@ -3,21 +3,30 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Google Clone</title>
+    <title>Google</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
     <ul>
-        <li>Gmail</li>
-        <li>Images</li>
+        <li><a href="#">Images</a></li>
+        <li><a href="#">Gmail</a></li>
     </ul>
-
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
+    <div class="logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    </div>
     <form>
-        <input type="text" id="searchbox"><br>
-        <input type="submit" value="Submit" class="button">
-        <input type="submit" value="Lucky" class="button">
+        <div class="searchbox">
+            <i class="material-icons">search</i>
+            <input type="text"><br>
+        </div>
+        <div class="button-container">
+            <input type="submit" value="Google Search" class="button">
+            <input type="submit" value="I'm Feeling Lucky" class="button">
+        </div>
     </form>
 </body>
 </html>
