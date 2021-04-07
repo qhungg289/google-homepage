@@ -9,18 +9,42 @@ body {
     margin-top: 10px;
 }
 
-ul {
+.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li {
+.nav li {
     float: right;
 }
 
-li a {
+.nav li a {
+    display: block;
+    padding: 12px 12px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+}
+
+.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    background-color: #e3e3e3;
+    width: 100%;
+}
+
+.footer li {
+    float: left;
+}
+
+.footer li a {
     display: block;
     padding: 12px 12px;
     color: black;
