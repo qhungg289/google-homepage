@@ -20,6 +20,13 @@ body {
     float: right;
 }
 
+.nav i {
+    float: right;
+    position: relative;
+    top: 8px;
+    right: 2px;
+}
+
 .nav li a {
     display: block;
     padding: 12px 12px;
